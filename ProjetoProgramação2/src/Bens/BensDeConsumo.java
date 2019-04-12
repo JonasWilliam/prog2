@@ -23,11 +23,15 @@ public class BensDeConsumo extends Bens {
 	public void setDataVailidade(Date dataVailidade) {
 		this.dataVailidade = dataVailidade;
 	}
-	
-	// metodos
-	
-	public void AttQuantidade(int n) {
-		
-	}
+	// Fim dos gets e sets
 
+	// metodos
+
+	public void reabastecer(int quantidade) {
+		this.quantidade = this.quantidade + quantidade;
+	}
+	public void solicitarBemDeConsumo(int quantidade) {
+		this.quantidade = this.quantidade - quantidade;
+	}
+	// Fim dos metodos
 }

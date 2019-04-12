@@ -8,6 +8,17 @@ public class Setor {
 	private String nome;
 	private GestorDeSetor gestor;
 	
+	
+	// Construtores
+	
+	Setor(int codigo,String nome){
+		this.codigo = codigo;
+		this.nome = nome;
+	}
+	// fim dos construtores
+	
+	
+	
 	//Metodos
 	
 	
@@ -15,8 +26,11 @@ public class Setor {
 		return null;
 		
 	}
-	public void addNovoSetor() {
+	public void addNovoSetor(int codigo,String nome,GestorDeSetor gestor) {
 		
+		this.codigo = codigo;
+		this.gestor = gestor;
+		this.nome = nome;
 	}
 	public void listarSetor() { /*aqui vai ser uma lista?*/
 		
@@ -29,6 +43,7 @@ public class Setor {
 	}
 	
 	
+	// fim dos Metodos
 	
 	
 	
@@ -53,6 +68,6 @@ public class Setor {
 		this.gestor = gestor;
 	}
 	
-	
+	// fim dos gets e sets
 	
 }

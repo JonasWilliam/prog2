@@ -8,15 +8,7 @@ public class Funcionarios {
 	private String senha;
 	private int nivelPermissao;
 
-	// Metodos
 
-	public void alterarFuncionario() {
-
-	}
-
-	public void listarFuncionario() {
-
-	}
 
 	// gets e sets
 

@@ -34,10 +34,14 @@ public class BensDePatrimonio extends Bens {
 		this.dataAquisicao = dataAquisicao;
 	}
 
+	
+	//Fim dos gets e sets
+	
+	
 	// métodos
 
-	public void atualizarEstadoConservacao(String n) {
-
+	public void atualizarEstadoConservacao(String novoEstadoConservacao) {
+		this.estadoConservacao = novoEstadoConservacao;
 	}
 
 }

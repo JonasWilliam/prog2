@@ -13,5 +13,10 @@ public class AdministradorDeGestor extends Funcionarios {
 	public void alterarFuncionario() {
 
 	}
+	
+
+	public void listarFuncionario() {
+
+	}
 
 }

@@ -16,4 +16,14 @@ public class GestorDeSetor extends Funcionarios {
 		this.setorDeLotacao = setorDeLotacao;
 	}
 	
+	// Metodos
+
+	public void alterarFuncionario() {
+
+	}
+
+	public void listarFuncionario() {
+
+	}
+	
 }
